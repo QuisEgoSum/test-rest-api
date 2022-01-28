@@ -8,4 +8,4 @@ const httpClient = new Test.HttpClient(
 )
 
 
-test('User', require('./packages/user')({httpClient}))
+describe('User', require('./packages/user')({httpClient}))
